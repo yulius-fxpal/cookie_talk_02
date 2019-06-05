@@ -1,4 +1,4 @@
-# Cookie Talk #2 Examples
+# Cookie Talk #2 Demos
 
 ## Docker
 
@@ -21,10 +21,22 @@ make run
 * `Lorenz Differential Equations.ipynb` sample notebook
 * How to create environment to use `Lorenz Differential Equations.ipynb`
 
-```
+```bash
 conda create -n cookie2
 source activate cookie2
 conda install ipykernel ipywidgets matplotlib scipy
+```
+
+* How to save/load conda environments
+
+```bash
+# save environment
+conda env export > environment.yml
+
+# create new environment
+# -n optional because the name is already in environment.yml
+conda create [-n env_name] -f environment.yml
+
 ```
 
 * Mask_RCNN was not added to the repo.  It's a good excersize to try to get that running in jupyter lab yourself.
