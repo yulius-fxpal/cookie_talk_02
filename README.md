@@ -27,6 +27,9 @@ source activate cookie2
 conda install ipykernel ipywidgets matplotlib scipy
 ```
 
+* Mask_RCNN was not added to the repo.  It's a good excersize to try to get that running in jupyter lab yourself.
+https://github.com/matterport/Mask_RCNN
+
 * Make Tensorflow not take up the whole GPU
 
 ```python
