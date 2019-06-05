@@ -1,0 +1,3 @@
+[submodule "git-example"]
+	path = git/git-example
+	url = https://github.com/yulius-fxpal/git-example
